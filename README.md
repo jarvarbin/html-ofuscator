@@ -1,5 +1,6 @@
 # html-ofuscator
-'''
+```
+
    ⡠⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣶⣿⣿⠟⠁⢀⣤⣶⣾⠟⠻⣷⣦⡡
 ⠀⠀⠈⠀⣠⣾⣿⢿⢯⣍⢹⠛⠛⠛⠿⠻⠿⢿⣣⣴⣾⣿⣿⡟⠁⠀⠀⠈⢻⣷
 ⠀⠀⠀⣼⠟⢋⡧⠃⢈⣹⠆⠀⡠⠊⠀⠀⠀⠀⣼⣽⣿⣿⣿⡀⠀⠀⠀⠀⠀⢻
@@ -18,7 +19,8 @@
 ⣿⣿⣿⣿⣿⣿⣿⣿⡿⢁⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⣿⣿⣿⣿⣿⣿⣿⣿⢣⣿⣏⣿⡀⠑⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⣿⣿⣿⣿⣿⣿⣿⠇⣾⣿⣿⣿⣷⡔⡀⠂⢀⠀
-'''
+```
+
 This obfuscator takes an input HTML file, reads the contents of the file, and replaces the names of all HTML tags with randomly generated strings. The mapping from each input tag name to the corresponding obfuscated tag name is random and different each time the obfuscator is run. The obfuscated HTML is then written to the specified output file.
 
 To use this obfuscator, you would call it like this:
